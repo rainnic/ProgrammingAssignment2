@@ -1,14 +1,14 @@
 ## Assignment: Caching the Inverse of a Matrix
 ## Following the instructions I have created two functions:
-## 1) makeCacheMatrix:
-## 2) cacheSolve:
+## 1) makeCacheMatrix
+## 2) cacheSolve
 ##
 ## Using the scope rules of the R language, it is possible to put in cache
 ## the matrix inversion and then solve it reducing the computation time.
 ##
 ## Usage:
 ## NOTE: It works only and only if "matrix_example" is a square matrix 
-## and its determinat is not 0, otherwise you will recieve an error message.
+## and its determinant is not 0, otherwise you will recieve an error message.
 ## matrix_example <- matrix(runif(16, 3.0, 7.5),4,4)
 ## a <- makeCacheMatrix(matrix_example)
 ## b <- cacheSolve(a)
